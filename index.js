@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(5050, () => console.log("server is running on port 5050"));
+app.listen(process.env.port, () => console.log("server is running on port 5050"));
